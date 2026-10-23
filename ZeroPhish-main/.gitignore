@@ -1,0 +1,96 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+**/env/
+
+# Python testing and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Environment variables & secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Node.js / Frontend
+# ==============================
+node_modules/
+**/node_modules/
+frontend/node_modules/
+frontend/dist/
+**/dist/
+
+# ==============================
+# Databases
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# IDE / Editors
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Build and test artifacts
+# ==============================
+*.spec
+.pybuilder/
+pip-wheel-metadata/
+
+# ==============================
+# Backup files
+# ==============================
+*.bak
+*.swp
+*~
+
+# ==============================
+# Optional: Uncomment if you do not
+# want to upload local datasets
+# ==============================
+# data/*.csv
+
+# ==============================
+# Optional: Uncomment if model files
+# should not be stored in Git
+# ==============================
+# *.joblib
+# *.pkl
